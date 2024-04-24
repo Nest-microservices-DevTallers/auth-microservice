@@ -7,5 +7,5 @@ export class LoginUserDto {
 
   @IsStrongPassword()
   @IsString()
-  password: String;
+  password: string;
 }
